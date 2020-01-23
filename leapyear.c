@@ -3,15 +3,15 @@
  void main()  
 {  
     int n;    
-printf("enter a number:");    
+printf("enter the year");    
 scanf("%d",&n);     
-if(n%2==0)
+if(n%4==0)
 {    
-printf("the number is even");    
+printf("it is a leap year");    
 }    
 else
 {    
-printf("the number is odd");    
+printf("it is not a leap year");    
 }     
     getch();
     }
